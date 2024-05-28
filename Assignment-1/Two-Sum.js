@@ -14,7 +14,8 @@ var twoSum = function(nums, target) {
     }
 };
 
-let nums = [2, 7, 11, 15];
-let target = 9;
-let result = twoSum(nums, target);
+let nums = [20, 70, 110, 135];
+let target = 180;
+
+        let result = twoSum(nums, target);
 console.log(result); 

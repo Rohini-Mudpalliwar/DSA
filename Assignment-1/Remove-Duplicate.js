@@ -15,4 +15,5 @@ var removeDuplicates = function(nums) {
 let nums = [1, 1, 2, 2, 3, 3, 4, 4, 5];
 let k = removeDuplicates(nums);
 console.log('k:', k); 
-console.log('Updated array:', nums.slice(0, k)); 
+
+console.log('Our new array:', nums.slice(0, k)); 

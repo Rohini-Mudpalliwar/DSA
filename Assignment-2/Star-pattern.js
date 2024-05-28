@@ -5,8 +5,7 @@ let pattern ="";
         for(let n=1; n<=i;n++ ){
           pattern += "*"
         }
-
-    
+          
         pattern += "\n"
     }
 console.log(pattern);
