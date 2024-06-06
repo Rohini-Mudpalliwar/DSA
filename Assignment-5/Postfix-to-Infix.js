@@ -17,7 +17,7 @@ function postfixToInfix(postfix) {
     return stack.pop();
   }
   
-  // Example usage:
+  // Example
   const postfix = "AB+CD-*";
   console.log(postfixToInfix(postfix)); 
   

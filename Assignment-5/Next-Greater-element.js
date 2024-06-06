@@ -19,7 +19,7 @@ function insertingBack(stack, element) {
   console.log(`Pushed element...... ${temp} back into stack: [${stack.join(', ')}]`);
 }
 
-// Example usage:
+
 const stack = [34, 3, 31, 98, 92, 23];
 sorting(stack);
-console.log(stack); // Expected output: [3, 23, 31, 34, 92, 98]
+console.log(stack); 

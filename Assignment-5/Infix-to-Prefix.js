@@ -32,6 +32,6 @@ function infixToPostfix(expression) {
     return result;
   }
   
-  // Example usage:
+  // Examp
   const infix = "a+b*(c^d-e)^(f+g*h)-i";
   console.log("Final Result:", infixToPostfix(infix));   

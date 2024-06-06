@@ -12,7 +12,7 @@ function prefixToInfix(expression) {
         const b = stack.pop();
 
 
-        
+
         const result = `(${a}${char}${b})`;
         stack.push(result);
         console.log(`Popped ${a} and ${b}, Pushed ${result} to stack: [${stack.join(', ')}]`);
@@ -25,7 +25,7 @@ function prefixToInfix(expression) {
 
 
   
-  // Example usage:
+
   const prefix = "*+AB-CD";
   console.log(prefixToInfix(prefix)); 
   
